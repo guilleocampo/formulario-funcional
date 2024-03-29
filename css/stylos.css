@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(218,216, 216);
+}
+.conteiner{
+    width: 500px;
+    padding: 20px;
+    background: white;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.titulo{
+    text-align: center;
+    border: solid rgb(9, 9, 168) 1px;
+    border-style:dashed ;
+    padding: 15px;
+    color: rgb(22, 47, 161);
+}
+
+.padre{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: rgb(47, 212, 25);
+
+}
+.nombre,.email,.usuario,.clave{
+    display: flex;
+    flex-direction: column;
+
+}
+.input{
+    padding: 10px;
+}
+.input:focus{
+    outline: solid rgb(194, 58, 40) 2px;
+}
+
+.cuenta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boton{
+    width: 100px;
+    background: orange;
+    border: none;
+    color: rgb(1, 1, 43);
+}
+
